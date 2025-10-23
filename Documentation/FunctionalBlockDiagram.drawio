@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.7">
   <diagram name="Page-1" id="fQWz7tGFMNxJVp2ZyE_J">
-    <mxGraphModel dx="1501" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gwI7qxXP0Hf7uRdBSZYK-1" value="NUCLEO-G431RB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gwI7qxXP0Hf7uRdBSZYK-1" value="&lt;div&gt;MCU Dev Board&lt;/div&gt;NUCLEO-G431RB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="225" width="110" height="340" as="geometry" />
         </mxCell>
         <mxCell id="gwI7qxXP0Hf7uRdBSZYK-3" value="Gate Driver&lt;div&gt;(DRV8323RS)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -29,13 +29,22 @@
           <mxGeometry x="840" y="475" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gwI7qxXP0Hf7uRdBSZYK-13" value="U" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="285" width="30" height="30" as="geometry" />
+          <mxGeometry x="940" y="285" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gwI7qxXP0Hf7uRdBSZYK-14" value="V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="380" width="30" height="30" as="geometry" />
+          <mxGeometry x="940" y="380" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gwI7qxXP0Hf7uRdBSZYK-15" value="W" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="970" y="475" width="30" height="30" as="geometry" />
+          <mxGeometry x="940" y="475" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gwI7qxXP0Hf7uRdBSZYK-16" value="Buck Regulator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="460" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gwI7qxXP0Hf7uRdBSZYK-17" value="CSA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="160" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gwI7qxXP0Hf7uRdBSZYK-18" value="SHUNT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="160" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
