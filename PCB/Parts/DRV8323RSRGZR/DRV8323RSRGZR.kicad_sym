@@ -1098,6 +1098,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -16.51 20.32 270)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)

@@ -5,6 +5,471 @@
 	(uuid "f3c6a30b-0bcc-4603-81dd-59c5968ecb99")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x19_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2303,6 +2768,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -16.51 20.32 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -3973,7 +4456,7 @@
 	)
 	(text "C_Bulk: \nI_peak=30A, f_PWM=20kHz, V_max=36V\nd_t = 1/f_PWM = 50µs (worst case transient duration)\nd_V_target = 1% * 36V = 0.36V\nC = I*d_t/d_V = 30*50us/0.36 = 4167uF minimum\nselected 4700uF"
 		(exclude_from_sim no)
-		(at 22.098 100.33 0)
+		(at 20.066 115.57 0)
 		(effects
 			(font
 				(size 0.508 0.508)
@@ -4298,7 +4781,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 40.64) (xy 60.96 41.91)
+			(xy 54.61 40.64) (xy 54.61 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4355,6 +4838,16 @@
 			(type default)
 		)
 		(uuid "0963bf63-b018-4dc7-a042-67749eaf7801")
+	)
+	(wire
+		(pts
+			(xy 58.42 172.72) (xy 58.42 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8ab69b-e10e-45aa-8be3-6610850458b3")
 	)
 	(wire
 		(pts
@@ -4668,7 +5161,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 40.64) (xy 60.96 40.64)
+			(xy 60.96 48.26) (xy 60.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ede4e40-bb15-406c-bbe8-028ac1dcecd2")
+	)
+	(wire
+		(pts
+			(xy 69.85 40.64) (xy 54.61 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4775,6 +5278,16 @@
 			(type default)
 		)
 		(uuid "79b3b8cf-eb91-4063-8ace-1d335c74e05f")
+	)
+	(wire
+		(pts
+			(xy 55.88 172.72) (xy 55.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c188bf8-d28e-4443-a047-07d087f9f44a")
 	)
 	(wire
 		(pts
@@ -5108,6 +5621,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 48.26) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4686388-5f84-40ce-a9b9-81e725b0f18f")
+	)
+	(wire
+		(pts
 			(xy 167.64 88.9) (xy 172.72 88.9)
 		)
 		(stroke
@@ -5145,6 +5668,16 @@
 			(type default)
 		)
 		(uuid "ce3fcbfd-7bdb-41c1-b732-a58c725ef8bc")
+	)
+	(wire
+		(pts
+			(xy 53.34 172.72) (xy 53.34 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d053c33a-340a-4d88-a6b4-ec1bd39985cb")
 	)
 	(wire
 		(pts
@@ -5886,7 +6419,7 @@
 		)
 		(uuid "57a1f45a-9495-44e6-a059-b176295ce5cb")
 	)
-	(label "A"
+	(label "C"
 		(at 119.38 137.16 0)
 		(effects
 			(font
@@ -6276,6 +6809,16 @@
 		)
 		(uuid "93995622-4381-48c5-9692-e547420691d9")
 	)
+	(label "C"
+		(at 58.42 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9727cd36-63e1-4790-a53b-5de016a74082")
+	)
 	(label "PB14"
 		(at 172.72 55.88 0)
 		(effects
@@ -6656,6 +7199,16 @@
 		)
 		(uuid "c191186c-047f-4e39-9905-c18cb700029f")
 	)
+	(label "B"
+		(at 55.88 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c24cce9a-c30d-4a01-9755-2db3c786c391")
+	)
 	(label "SHB"
 		(at 71.12 135.89 180)
 		(effects
@@ -6806,7 +7359,7 @@
 		)
 		(uuid "e5883e59-f4d2-403c-b0f8-c17c842df5bf")
 	)
-	(label "A"
+	(label "B"
 		(at 87.63 137.16 0)
 		(effects
 			(font
@@ -6905,6 +7458,16 @@
 			(justify right bottom)
 		)
 		(uuid "fc88d457-7c4a-4af4-a99c-94e5020460c1")
+	)
+	(label "A"
+		(at 53.34 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "feecf81a-0d4e-4019-a7a1-ce7dfa4167aa")
 	)
 	(label "+3V3"
 		(at 228.6 46.99 0)
@@ -7067,6 +7630,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "VM"
+		(shape input)
+		(at 21.59 172.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b1484b9-d579-427c-bb26-d2863a68c7db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 177.591 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7379,7 +7966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 81.28 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7464,7 +8051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 113.03 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7745,6 +8332,83 @@
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "209c6d03-6289-47e2-a6db-c09c4f24132f")
+		(property "Reference" "#PWR018"
+			(at 24.13 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.416 172.974 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2662d661-8867-43bd-b5da-fcef81ed2a1a")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -8345,7 +9009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 81.28 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8419,7 +9083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4700uF"
+		(property "Value" "4700u"
 			(at 27.94 128.6509 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8430,7 +9094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 25.0952 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8512,7 +9176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.712 95.25 90)
 			(hide yes)
 			(show_name no)
@@ -8594,7 +9258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 108.712 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -8905,7 +9569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1210_3225Metric"
 			(at 67.31 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -9068,7 +9732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 113.03 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9273,6 +9937,88 @@
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 21.59 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76dbe15a-0357-43bf-9532-3655dd524e11")
+		(property "Reference" "J1"
+			(at 26.67 166.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 26.67 168.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 21.59 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 21.59 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "11c0ef24-02f4-4e58-bc98-002d3dace978")
+		)
+		(pin "1"
+			(uuid "7b57d48d-1159-43a0-9419-03f2fda5c417")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9500,7 +10246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 50.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9573,7 +10319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "4.7u"
 			(at 125.73 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9584,7 +10330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 124.1552 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9708,6 +10454,83 @@
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84a5e672-22f7-488a-8735-f3b5f438b257")
+		(property "Reference" "#PWR019"
+			(at 60.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.246 51.054 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d6e6de6-a1cb-452f-9cab-978fdc9926db")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9905,7 +10728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 76.962 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -9987,7 +10810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 108.712 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -10656,6 +11479,9 @@
 		(pin "2"
 			(uuid "3a5d2bfe-efbc-481d-8737-772af1009f66")
 		)
+		(pin "49"
+			(uuid "4438c5f7-cf62-46f3-a040-657c1fa445e2")
+		)
 		(instances
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
@@ -10699,7 +11525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 46.482 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -10749,7 +11575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 49.53 0)
+		(at 54.61 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10759,7 +11585,7 @@
 		(dnp no)
 		(uuid "ba44eb9c-96af-4167-bfe5-6c5f024d98b8")
 		(property "Reference" "#PWR03"
-			(at 60.96 55.88 0)
+			(at 54.61 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10770,7 +11596,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.246 49.784 0)
+			(at 56.896 49.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10780,7 +11606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 49.53 0)
+			(at 54.61 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10791,7 +11617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 49.53 0)
+			(at 54.61 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10802,7 +11628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 49.53 0)
+			(at 54.61 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11243,7 +12069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "4.7u"
 			(at 63.5 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11254,7 +12080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 61.9252 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11380,6 +12206,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 55.88 167.64 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de04dcea-3a6f-4aa3-9d5a-2e9ce12800d3")
+		(property "Reference" "J2"
+			(at 60.96 166.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 60.96 168.9099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
+			(at 55.88 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 55.88 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24991f0d-2e25-47b0-ad4b-7b827576a05e")
+		)
+		(pin "3"
+			(uuid "14853b84-f849-4418-833b-4835eaa553b4")
+		)
+		(pin "2"
+			(uuid "a8fa684b-3a76-4935-9ddf-e025a4b370de")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 91.44 129.54 0)
 		(unit 1)
@@ -11401,7 +12312,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "4.7u"
 			(at 93.98 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11412,7 +12323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 92.4052 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11494,7 +12405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 50.8 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11702,7 +12613,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 45.72 0)
+		(at 54.61 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11713,7 +12624,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5007f7e-7619-40cf-b193-8d27f18c9718")
 		(property "Reference" "C2"
-			(at 64.77 44.4499 0)
+			(at 58.42 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11724,7 +12635,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 64.77 46.9899 0)
+			(at 58.42 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11735,7 +12646,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 61.9252 49.53 0)
+			(at 55.5752 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11746,7 +12657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11757,7 +12668,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 45.72 0)
+			(at 54.61 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
