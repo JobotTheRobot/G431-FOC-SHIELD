@@ -506,7 +506,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
+        "priority": -1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "tuning_profile": "",
@@ -967,7 +967,7 @@
         "uuid": "f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
       }
     ],
-    "used_designators": "#PWR18-19,J1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

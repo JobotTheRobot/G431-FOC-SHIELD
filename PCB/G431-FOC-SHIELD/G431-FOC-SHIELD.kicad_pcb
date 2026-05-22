@@ -6683,13 +6683,13 @@
 	(footprint "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 		(layer "F.Cu")
 		(uuid "c6959836-2df8-4a03-a432-4fa515e2d7c2")
-		(at 93.609491 52.775)
+		(at 108 40)
 		(descr "CP, Radial series, Radial, pin pitch=7.50mm, diameter=16mm, height=25mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 7.50mm diameter 16mm height 25mm Electrolytic Capacitor")
 		(property "Reference" "C12"
 			(at 3.75 -9.25 0)
 			(layer "F.SilkS")
-			(uuid "71aedd11-5208-4be4-bc19-3a721545b002")
+			(uuid "828c9e45-2f56-4b4d-b7b0-f917f9fb5c13")
 			(effects
 				(font
 					(size 1 1)
@@ -6700,7 +6700,7 @@
 		(property "Value" "4700u"
 			(at 3.75 9.25 0)
 			(layer "F.Fab")
-			(uuid "aa31a195-e35e-49fa-a9f2-019d85f998b8")
+			(uuid "334f0f91-da29-4f7d-8302-d25fdb0ccef4")
 			(effects
 				(font
 					(size 1 1)
@@ -6712,7 +6712,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7fb57502-8d67-472a-bf44-9ccf0aa5ea64")
+			(uuid "3caa21c8-f3ae-4af9-9009-54aa32c437cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +6723,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3722af9a-6c6b-40ad-95c2-a591cc1e8132")
+			(uuid "d96a5414-8074-431b-b93f-cd4fb8525bca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12245,6 +12245,27 @@
 				(thickness 0.3)
 			)
 			(justify mirror)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "In1.Cu")
+		(uuid "b297f611-358a-4d21-9549-2d09941df075")
+		(name "GND")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.508)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 124.658226 122.390289) (xy 124.911264 27.039699) (xy 208.031344 26.637534) (xy 207.45894 122.610022)
+			)
 		)
 	)
 	(embedded_fonts no)
