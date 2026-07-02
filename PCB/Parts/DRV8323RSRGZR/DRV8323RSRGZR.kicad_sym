@@ -46,7 +46,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8323.pdf?ts=1782914170794&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FDRV8323"
 			(at -17.78 -17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -210,6 +210,17 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "ki_keywords" "BLDC, 3-Phase, Driver"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "DRV8323RSRGZR_0_1"

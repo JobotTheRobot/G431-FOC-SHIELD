@@ -470,6 +470,1002 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x10"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x10"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x10_1_1"
+				(rectangle
+					(start -1.27 11.43)
+					(end 1.27 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x19_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1716,7 +2712,7 @@
 					(justify bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8323.pdf?ts=1782914170794&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FDRV8323"
 				(at -17.78 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1880,6 +2876,17 @@
 						(size 1.27 1.27)
 					)
 					(justify bottom)
+				)
+			)
+			(property "ki_keywords" "BLDC, 3-Phase, Driver"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "DRV8323RSRGZR_0_1"
@@ -3605,40 +4612,37 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_GDS"
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 0)
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_GDS"
-				(at 5.08 0 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 2.54 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3659,7 +4663,7 @@
 					)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3670,7 +4674,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3681,7 +4685,123 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GDS_0_1"
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:BSC070N10NS3G"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSC070N10NS3G"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC070N10NS3-DS-v02_01-en.pdf?fileId=db3a304327b89750012824712c6c6f2f"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.0mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "OptiMOS Power MOSFET N-MOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TDSON*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BSC070N10NS3G_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3825,7 +4945,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -3848,11 +4968,11 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GDS_1_1"
-				(pin input line
-					(at -5.08 0 0)
+			(symbol "BSC070N10NS3G_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "G"
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3868,9 +4988,10 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "D"
+					(hide yes)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3888,6 +5009,7 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
+					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -3896,6 +5018,42 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4349,6 +5507,18 @@
 		(uuid "8c5cb4e1-4e8e-414f-b7d3-8d93742296af")
 	)
 	(rectangle
+		(start 232.41 80.645)
+		(end 280.035 142.875)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "a429f2f1-6b8e-45a4-ba93-c56a41412406")
+	)
+	(rectangle
 		(start 17.78 16.51)
 		(end 137.16 161.29)
 		(stroke
@@ -4517,6 +5687,16 @@
 		)
 		(uuid "d5987d27-fd1f-412a-8f59-32d93a365dc4")
 	)
+	(text "Arduino connectors"
+		(exclude_from_sim no)
+		(at 256.286 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7d160ab-2fa1-4c26-89cc-582b2ee0233d")
+	)
 	(text "LMR16006"
 		(exclude_from_sim no)
 		(at 99.822 36.576 0)
@@ -4554,6 +5734,18 @@
 		(uuid "0028a654-6052-4d9e-898e-51e18f8c52c4")
 	)
 	(junction
+		(at 48.26 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "093d1d26-9b6b-438c-970f-ff64cbd94789")
+	)
+	(junction
+		(at 110.49 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12b7f22a-8495-496a-a5e3-920acd5b720d")
+	)
+	(junction
 		(at 49.53 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4566,16 +5758,22 @@
 		(uuid "1cb93013-fd68-484b-a3fa-0fe71ed1bace")
 	)
 	(junction
+		(at 48.26 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f8e82b5-1f0e-49eb-91f9-191b92aa2f53")
+	)
+	(junction
 		(at 123.19 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "296459a8-1da8-4f19-ad55-a720e175844c")
 	)
 	(junction
-		(at 48.26 147.32)
+		(at 48.26 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2b239a12-0a04-4b09-8453-dd57f419cbce")
+		(uuid "2b9a2d29-088e-480b-94e9-a46943215dc2")
 	)
 	(junction
 		(at 78.74 154.94)
@@ -4590,12 +5788,6 @@
 		(uuid "2d67da2a-2492-4e0c-a5f7-bd6d939e524e")
 	)
 	(junction
-		(at 110.49 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32dcb298-4520-4690-9790-ccd60e28ae6c")
-	)
-	(junction
 		(at 63.5 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4608,16 +5800,22 @@
 		(uuid "3e9ef9ea-959e-4d85-b236-7c647b4bcc91")
 	)
 	(junction
-		(at 110.49 125.73)
+		(at 78.74 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ad5d049-41a6-4926-8c7f-b21e2b05b5a4")
+		(uuid "50d02836-83e5-4b1c-a5a9-2b5a1d79bcf5")
 	)
 	(junction
 		(at 33.02 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51bf0c3a-53b1-4c00-a7c5-1d432f866e72")
+	)
+	(junction
+		(at 110.49 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "546e9d01-a1a1-40a5-a6e4-9898c04c94c9")
 	)
 	(junction
 		(at 72.39 25.4)
@@ -4638,34 +5836,28 @@
 		(uuid "62d4b06e-d8c0-42ad-8cb6-2601bc74aa24")
 	)
 	(junction
-		(at 110.49 137.16)
+		(at 78.74 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "723a937e-3742-4d00-8255-2ac6cf854078")
+		(uuid "65b5dd72-eae2-4ac1-aa52-56f2e3e99b9d")
 	)
 	(junction
 		(at 78.74 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "76c78955-7497-40e2-8415-8d85b059348d")
+		(uuid "6a6dfba1-d044-4cc2-8b72-bed9ab3ec588")
 	)
 	(junction
-		(at 48.26 135.89)
+		(at 48.26 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "794a23d4-1c01-4304-a386-1cafadd8af96")
+		(uuid "7b0ceca4-76e1-4d7c-b6e5-1dca68c2df2d")
 	)
 	(junction
 		(at 43.18 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b9d9fcc-61a1-466b-943f-05d87f19f7d3")
-	)
-	(junction
-		(at 48.26 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7deefb68-4b09-41f9-b322-21df72000df5")
 	)
 	(junction
 		(at 110.49 100.33)
@@ -4680,10 +5872,16 @@
 		(uuid "89e8a739-034e-4049-9719-f446a596cadd")
 	)
 	(junction
-		(at 48.26 137.16)
+		(at 110.49 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9ebc96b8-c991-4415-935e-95bac147de30")
+		(uuid "8a808cf6-fa28-41c0-9ce7-004755e52188")
+	)
+	(junction
+		(at 110.49 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fb2fafb-14ce-44ae-9805-216d98d6a297")
 	)
 	(junction
 		(at 48.26 154.94)
@@ -4704,18 +5902,6 @@
 		(uuid "ad00a092-82ef-4f56-b6fb-068e269909cd")
 	)
 	(junction
-		(at 110.49 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4cfce79-945a-4947-a03d-2c39593c12f3")
-	)
-	(junction
-		(at 78.74 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba341714-a185-463b-ad19-ab01514ff590")
-	)
-	(junction
 		(at 110.49 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4732,12 +5918,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce82c42d-1ed2-42ec-bd62-74a1151052e7")
-	)
-	(junction
-		(at 78.74 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da6ce26e-7380-458c-a925-5583fa2f86eb")
 	)
 	(no_connect
 		(at 265.43 74.93)
@@ -5168,6 +6348,16 @@
 			(type default)
 		)
 		(uuid "5ede4e40-bb15-406c-bbe8-028ac1dcecd2")
+	)
+	(wire
+		(pts
+			(xy 109.22 125.73) (xy 110.49 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e9def8-790d-4d42-a99b-3037665578ed")
 	)
 	(wire
 		(pts
@@ -5671,6 +6861,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 125.73) (xy 48.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfee3f44-8e76-4a64-bf60-9a5f617cc40f")
+	)
+	(wire
+		(pts
 			(xy 53.34 172.72) (xy 53.34 176.53)
 		)
 		(stroke
@@ -5869,6 +7069,16 @@
 		)
 		(uuid "006e1a23-61f6-4ed1-b1fa-f95d2bfdc6a6")
 	)
+	(label "+3V3"
+		(at 243.84 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "00c90282-9eb6-4ad1-b9b3-cbd2533acc30")
+	)
 	(label "SDI"
 		(at 105.41 69.85 0)
 		(effects
@@ -5919,6 +7129,16 @@
 		)
 		(uuid "04436f78-3000-43ac-9c57-1f00ea8a25ee")
 	)
+	(label "GND"
+		(at 243.84 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05758d5d-a12a-40b3-8abb-14e6ab09c7e8")
+	)
 	(label "PC15"
 		(at 215.9 62.23 180)
 		(effects
@@ -5929,6 +7149,16 @@
 		)
 		(uuid "06367011-2174-47eb-9086-f31d21a8668b")
 	)
+	(label "PA10"
+		(at 269.1438 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06ed782f-c5fd-4863-8e95-375bb8a28214")
+	)
 	(label "CAL"
 		(at 167.64 88.9 180)
 		(effects
@@ -5938,6 +7168,16 @@
 			(justify right bottom)
 		)
 		(uuid "07392db4-5c08-45ed-bc4b-29bee3728bd3")
+	)
+	(label "NRST"
+		(at 243.84 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0804efe9-9bd8-4e7f-b2c0-7ec44b996053")
 	)
 	(label "PB13"
 		(at 265.43 64.77 0)
@@ -6059,6 +7299,16 @@
 		)
 		(uuid "1a9a579a-3dbd-45ab-88f8-3c09f8be3aba")
 	)
+	(label "PC1{slash}PB9"
+		(at 243.84 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1caf4144-1640-420b-ae2e-160ca13a7ab0")
+	)
 	(label "VBUS_SENSE"
 		(at 167.64 55.88 180)
 		(effects
@@ -6068,6 +7318,26 @@
 			(justify right bottom)
 		)
 		(uuid "2089f79d-f9ec-495b-b041-558b93b62161")
+	)
+	(label "PB8"
+		(at 269.24 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "239c9229-07a4-41d5-911e-281067223eab")
+	)
+	(label "AVDD"
+		(at 269.24 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "262ee00b-335a-432e-b40b-916c9463c0ec")
 	)
 	(label "nOCTW"
 		(at 167.64 86.36 180)
@@ -6159,6 +7429,16 @@
 		)
 		(uuid "2b76cbae-b226-4f7d-a389-978c642978c2")
 	)
+	(label "PA1"
+		(at 243.84 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c9f3e52-4e4a-4c0a-93df-c4ef505f46cf")
+	)
 	(label "PA12"
 		(at 172.72 38.1 0)
 		(effects
@@ -6179,6 +7459,16 @@
 		)
 		(uuid "2d56f790-283c-4bca-a695-76b2bf73a52c")
 	)
+	(label "PA8"
+		(at 269.1438 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "316b6201-6133-4360-a76d-ee223acfcfd3")
+	)
 	(label "NC"
 		(at 228.6 39.37 0)
 		(effects
@@ -6198,6 +7488,16 @@
 			(justify right bottom)
 		)
 		(uuid "3359f2d2-c300-45da-a358-1aaf698cc593")
+	)
+	(label "VDRAIN"
+		(at 109.22 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33bcd037-13d5-42c6-8a93-406d23f7fa11")
 	)
 	(label "PB2"
 		(at 265.43 54.61 0)
@@ -6239,6 +7539,16 @@
 		)
 		(uuid "369e30b7-49c7-4873-92e5-b9097ec89c75")
 	)
+	(label "PA4"
+		(at 243.84 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36a6c064-8cbc-47b0-abfb-2f3d01239ff1")
+	)
 	(label "GND"
 		(at 265.43 52.07 0)
 		(effects
@@ -6278,6 +7588,16 @@
 			(justify right bottom)
 		)
 		(uuid "3cd7f7a1-8a8c-4d84-96a0-02a65dae341a")
+	)
+	(label "GND"
+		(at 269.24 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e87b479-88bc-4069-94dc-9367ee8cd0b8")
 	)
 	(label "PC6"
 		(at 265.43 31.75 0)
@@ -6359,6 +7679,16 @@
 		)
 		(uuid "4b9fc39b-1938-4cb2-a9b1-6f9316e15299")
 	)
+	(label "PC4{slash}PA2"
+		(at 269.1438 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e5e867c-3f35-42ab-bbe7-c59af31a26d8")
+	)
 	(label "PC12"
 		(at 215.9 31.75 180)
 		(effects
@@ -6368,6 +7698,16 @@
 			(justify right bottom)
 		)
 		(uuid "4ead229f-bc1f-4008-8c9f-b70be2b7ef29")
+	)
+	(label "PC7"
+		(at 269.24 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "512b7bcc-154b-4d5f-ad6d-0f6978281461")
 	)
 	(label "PB4"
 		(at 172.72 83.82 0)
@@ -6429,6 +7769,16 @@
 		)
 		(uuid "58386497-d4d8-4cc1-a2af-bffb76fecbbd")
 	)
+	(label "PB10"
+		(at 269.1438 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b1b59d4-4fea-4e43-9bd6-13ac0e1f323d")
+	)
 	(label "SNB"
 		(at 69.85 88.9 270)
 		(effects
@@ -6469,6 +7819,16 @@
 		)
 		(uuid "5da79e10-cb0f-4979-a703-34a66e4b1def")
 	)
+	(label "VDRAIN"
+		(at 46.99 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f30aacc-47ef-42fd-9345-acb6a74b8716")
+	)
 	(label "PC1{slash}PB9"
 		(at 228.6 72.39 0)
 		(effects
@@ -6498,6 +7858,16 @@
 			(justify right bottom)
 		)
 		(uuid "62b2a150-5f70-4d5f-a16d-2c85c22b5778")
+	)
+	(label "PC0{slash}PA15"
+		(at 243.84 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6322e744-66c8-47de-b4ad-98e1cfc21851")
 	)
 	(label "GLC"
 		(at 87.63 88.9 270)
@@ -6529,6 +7899,16 @@
 		)
 		(uuid "694aff0c-4e0a-4bb2-bab6-2dd88fc0fce2")
 	)
+	(label "PA6"
+		(at 269.24 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a885c4f-de16-4dbc-ab80-244c19f953c0")
+	)
 	(label "SHA"
 		(at 63.5 74.93 180)
 		(effects
@@ -6548,6 +7928,26 @@
 			(justify left bottom)
 		)
 		(uuid "739c05b6-3f49-4572-b168-667e4997d6b0")
+	)
+	(label "PC5{slash}PA3"
+		(at 269.1438 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73bcdad9-3421-4dad-9e8b-1fea562d759f")
+	)
+	(label "IOREF"
+		(at 243.84 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77fb4dc2-3b85-4531-a76f-8ab40d93fae0")
 	)
 	(label "PA4"
 		(at 228.6 67.31 0)
@@ -6859,6 +8259,16 @@
 		)
 		(uuid "9bd1d935-c837-4f09-a9b8-7dcaab14337a")
 	)
+	(label "PB6"
+		(at 269.24 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d9817b8-4791-4b4a-a7d7-d1de325a5c31")
+	)
 	(label "SHC"
 		(at 102.87 135.89 180)
 		(effects
@@ -6979,6 +8389,26 @@
 		)
 		(uuid "aa156b0b-be8c-4c0d-b223-41392ee301df")
 	)
+	(label "PA7"
+		(at 269.24 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa247027-6d05-4907-8a1c-c2db96256f3f")
+	)
+	(label "GND"
+		(at 243.84 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa2b760a-483d-406b-ae6b-fcfcf4666667")
+	)
 	(label "NC"
 		(at 215.9 39.37 180)
 		(effects
@@ -6998,6 +8428,16 @@
 			(justify right bottom)
 		)
 		(uuid "ad088e8b-8e50-4fd9-8a6c-f5f92ba2afea")
+	)
+	(label "PB9"
+		(at 269.24 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad9ae5e9-5695-4313-b450-97c9c6d59457")
 	)
 	(label "GHB"
 		(at 80.01 88.9 270)
@@ -7039,6 +8479,26 @@
 		)
 		(uuid "b29a37cc-c0d1-4301-8202-21f1965c943b")
 	)
+	(label "PB0"
+		(at 243.84 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b386da1d-d5d0-4120-99b0-e8953a54c4ef")
+	)
+	(label "+5V"
+		(at 243.84 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b39b6426-4cf4-420a-83b9-33538fd3cc90")
+	)
 	(label "PC5{slash}PA3"
 		(at 252.73 74.93 180)
 		(effects
@@ -7078,6 +8538,16 @@
 			(justify left bottom)
 		)
 		(uuid "b490cc9e-8fd4-4d7d-ba0e-3768996ea6c3")
+	)
+	(label "PB3"
+		(at 269.1438 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6759b29-1294-478e-9fde-d7894a89334b")
 	)
 	(label "PB11"
 		(at 265.43 49.53 0)
@@ -7189,6 +8659,16 @@
 		)
 		(uuid "c0892a57-4a38-48d3-add2-40a595aa5202")
 	)
+	(label "PB4"
+		(at 269.1438 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c16aeb81-078e-4a79-a2b3-00b8a820b93c")
+	)
 	(label "SPB"
 		(at 72.39 88.9 270)
 		(effects
@@ -7228,6 +8708,16 @@
 			(justify right bottom)
 		)
 		(uuid "c5193cbe-06cc-41e3-a479-cd455c2ffea4")
+	)
+	(label "PA5"
+		(at 269.24 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c87402af-f80f-4869-985b-8468fce569e3")
 	)
 	(label "SOA"
 		(at 167.64 48.26 180)
@@ -7279,6 +8769,16 @@
 		)
 		(uuid "d37d898b-58a3-4704-8d31-85d20bfd8688")
 	)
+	(label "VIN"
+		(at 243.84 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5686bc8-cf81-4945-b106-af577e2126bd")
+	)
 	(label "INHC"
 		(at 87.63 46.99 90)
 		(effects
@@ -7308,6 +8808,16 @@
 			(justify right bottom)
 		)
 		(uuid "daed2c71-fb33-49a1-8bad-3693035b3bac")
+	)
+	(label "NC"
+		(at 243.84 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db3b24a2-c8da-49d2-9d6a-b5a4ee55f335")
 	)
 	(label "PD2"
 		(at 228.6 31.75 0)
@@ -7389,6 +8899,16 @@
 		)
 		(uuid "f1bb224d-ac9f-422b-a486-b4d44e1b70cb")
 	)
+	(label "PA9"
+		(at 269.24 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1dbdce5-9fc9-4b51-b84a-21ae16c463ae")
+	)
 	(label "PC0"
 		(at 172.72 48.26 0)
 		(effects
@@ -7418,6 +8938,16 @@
 			(justify right bottom)
 		)
 		(uuid "f5a1a289-66af-4986-ac93-3bcc54534145")
+	)
+	(label "PA0"
+		(at 243.84 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f77fef33-d8ab-4440-b737-e8013d271b9a")
 	)
 	(label "PB2"
 		(at 172.72 86.36 0)
@@ -7478,6 +9008,16 @@
 			(justify left bottom)
 		)
 		(uuid "ff445bc4-9e4f-4924-a244-1baf26b063ad")
+	)
+	(label "PB5"
+		(at 269.1438 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff931f13-0fd7-4d6b-896f-f983e6149f0a")
 	)
 	(label "PC4{slash}PA2"
 		(at 252.73 72.39 180)
@@ -7778,6 +9318,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 248.92 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "042683bc-8dfe-4f94-9b84-0b4989b1c59d")
+		(property "Reference" "J4"
+			(at 247.904 94.996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 243.332 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 248.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 248.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "abd055b1-cdbc-429c-adad-1263dc3525b4")
+		)
+		(pin "6"
+			(uuid "02948635-3d96-4fa7-be9b-0a3198b7c486")
+		)
+		(pin "7"
+			(uuid "fbacac37-85ec-4d99-93ce-3227315bb468")
+		)
+		(pin "3"
+			(uuid "62c34d7c-6d4f-4d89-81c3-3a97275b1bd5")
+		)
+		(pin "4"
+			(uuid "bafc63e1-7b5a-4221-a7c3-cb557c90894d")
+		)
+		(pin "5"
+			(uuid "441d3e3a-3881-46a7-b75b-a33acf9d214a")
+		)
+		(pin "1"
+			(uuid "63016e76-a1cb-4e3e-9254-a8599f682132")
+		)
+		(pin "8"
+			(uuid "16319efd-6ec2-48c6-998a-b387a5284b62")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 43.18 57.15 0)
 		(unit 1)
@@ -7933,19 +9572,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 76.2 130.81 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 234.95 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0975885d-8b34-4987-81fb-b9fde7f46889")
-		(property "Reference" "Q3"
-			(at 82.55 129.5399 0)
+		(uuid "0c307431-7504-47be-ae1a-9a73c43d6320")
+		(property "Reference" "H4"
+			(at 237.49 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7955,8 +9594,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 82.55 132.0799 0)
+		(property "Value" "MountingHole"
+			(at 237.49 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7966,8 +9605,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 81.28 128.27 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7978,7 +9617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 130.81 0)
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7988,8 +9627,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 76.2 130.81 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 234.95 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,105 +9637,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "405ff10b-bab3-4ff2-97cc-e42332e330e0")
-		)
-		(pin "2"
-			(uuid "755e35fe-cd03-4ce1-b3db-8283eee98e3c")
-		)
-		(pin "3"
-			(uuid "36f718ad-3e24-443a-82ec-2a95a850bf73")
 		)
 		(instances
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 107.95 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ad628d7-05dd-4a24-9bc3-94e966c06fe3")
-		(property "Reference" "Q5"
-			(at 114.3 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 114.3 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 113.03 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 107.95 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "df8a769a-7057-4c85-af70-5fbae4998b82")
-		)
-		(pin "2"
-			(uuid "2d6751e6-376d-4a81-81d3-1fd14dee7df6")
-		)
-		(pin "3"
-			(uuid "1aedd8cd-3b52-4a34-a112-52c81100235a")
-		)
-		(instances
-			(project "G431-FOC-SHIELD"
-				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
-					(reference "Q5")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -8178,6 +9723,100 @@
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC070N10NS3G")
+		(at 76.2 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dcc1796-9c59-4263-9a78-52e82aca617d")
+		(property "Reference" "Q3"
+			(at 82.55 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC070N10NS3G"
+			(at 82.55 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 81.28 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC070N10NS3-DS-v02_01-en.pdf?fileId=db3a304327b89750012824712c6c6f2f"
+			(at 81.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.0mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8"
+			(at 76.2 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "35e3abe3-618f-47d4-8efa-9d8d5f74c605")
+		)
+		(pin "3"
+			(uuid "4b8161fb-8a4e-4627-b3e7-96078b05eaa8")
+		)
+		(pin "1"
+			(uuid "93258237-579d-4e21-a55e-9f5f4759625d")
+		)
+		(pin "2"
+			(uuid "529fbcff-b3d3-4236-98be-90025041cbbb")
+		)
+		(pin "5"
+			(uuid "b51fba90-9f54-451f-935f-7e2cb5c1f3f2")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8976,91 +10615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 76.2 142.24 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fe83122-ddce-4df5-a89b-13cf7af181ea")
-		(property "Reference" "Q4"
-			(at 82.55 140.9699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 82.55 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 81.28 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 76.2 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "922a733e-9f89-489d-aad6-e5824ca117c9")
-		)
-		(pin "2"
-			(uuid "ab2dc7b3-fda9-42f2-afaf-c5efaa732188")
-		)
-		(pin "3"
-			(uuid "08da4e49-0235-4645-8a8b-0ea0234977a2")
-		)
-		(instances
-			(project "G431-FOC-SHIELD"
-				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 24.13 128.27 0)
 		(unit 1)
@@ -9538,6 +11092,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSC070N10NS3G")
+		(at 45.72 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d01547c-4dcb-4cb1-97e6-f766e1348c31")
+		(property "Reference" "Q2"
+			(at 52.07 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC070N10NS3G"
+			(at 52.07 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 50.8 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC070N10NS3-DS-v02_01-en.pdf?fileId=db3a304327b89750012824712c6c6f2f"
+			(at 50.8 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.0mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8"
+			(at 45.72 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "1f5e8c60-89d1-497b-9724-5e8a884288c4")
+		)
+		(pin "3"
+			(uuid "c1202e52-ccaf-4751-87cc-9b56556dd501")
+		)
+		(pin "1"
+			(uuid "ae65d806-8633-477b-80ea-2c38e60816eb")
+		)
+		(pin "2"
+			(uuid "c4270c1e-d350-4d12-af76-ebd6abe33639")
+		)
+		(pin "5"
+			(uuid "bc29013f-a4e5-46f8-b7c1-f34a89071648")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 67.31 25.4 90)
 		(unit 1)
@@ -9699,7 +11347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(lib_id "Transistor_FET:BSC070N10NS3G")
 		(at 107.95 142.24 0)
 		(unit 1)
 		(body_style 1)
@@ -9709,7 +11357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6fbd6bd1-d0f7-4d94-ac16-4bb0aaa8755f")
+		(uuid "6f4ff766-a815-47d2-bc3c-897b62b793d5")
 		(property "Reference" "Q6"
 			(at 114.3 140.9699 0)
 			(show_name no)
@@ -9721,7 +11369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
+		(property "Value" "BSC070N10NS3G"
 			(at 114.3 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9732,8 +11380,21 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 113.03 139.7 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 113.03 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC070N10NS3-DS-v02_01-en.pdf?fileId=db3a304327b89750012824712c6c6f2f"
+			(at 113.03 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9741,9 +11402,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Description" "90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.0mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8"
 			(at 107.95 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9754,25 +11416,20 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 107.95 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1530fc45-c32e-4ad7-a688-b25ddbf90356")
-		)
-		(pin "2"
-			(uuid "c2c01c61-fabd-45aa-95dc-5541cb91ada3")
+		(pin "4"
+			(uuid "06324b18-6be5-44a1-9ff3-a97b264cb37e")
 		)
 		(pin "3"
-			(uuid "91fce080-b21c-401d-8c31-8f1de552c2ab")
+			(uuid "12fe1149-385e-48d1-b9e1-6b6a1caac208")
+		)
+		(pin "1"
+			(uuid "267e5d16-9f72-4c34-acb8-9fb7bf7b5e30")
+		)
+		(pin "2"
+			(uuid "44d5b193-92d3-4f6e-b29b-cc3c5c6da95b")
+		)
+		(pin "5"
+			(uuid "2ebcdf00-ffbf-488f-9d9e-ecbc93c9ac7e")
 		)
 		(instances
 			(project "G431-FOC-SHIELD"
@@ -10213,19 +11870,19 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 45.72 142.24 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 234.95 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "78261f99-c704-449e-8d10-b958681674dc")
-		(property "Reference" "Q2"
-			(at 52.07 140.9699 0)
+		(uuid "79bfa9c6-e0a6-4bf5-937d-fe65eb5e487b")
+		(property "Reference" "H3"
+			(at 237.49 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10235,8 +11892,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 52.07 143.5099 0)
+		(property "Value" "MountingHole"
+			(at 237.49 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10246,8 +11903,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 50.8 139.7 0)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 234.95 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10258,7 +11915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 142.24 0)
+			(at 234.95 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10268,8 +11925,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 45.72 142.24 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 234.95 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10278,20 +11935,11 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "9d791c07-f310-4bdb-8737-cad544fac92c")
-		)
-		(pin "2"
-			(uuid "99a682cb-5f07-4c15-baa3-59227acb36e1")
-		)
-		(pin "3"
-			(uuid "82dc43f9-279d-499f-a2e5-834a94e2c4b5")
 		)
 		(instances
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
-					(reference "Q2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -10454,6 +12102,100 @@
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC070N10NS3G")
+		(at 107.95 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81bb3af3-3bdc-4670-873e-302f975d0728")
+		(property "Reference" "Q5"
+			(at 114.3 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC070N10NS3G"
+			(at 114.3 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 113.03 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC070N10NS3-DS-v02_01-en.pdf?fileId=db3a304327b89750012824712c6c6f2f"
+			(at 113.03 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.0mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8"
+			(at 107.95 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "9f192f04-2d00-4669-9464-cb28954fef24")
+		)
+		(pin "3"
+			(uuid "aaf3b983-508c-4cd4-8ceb-631ad5dc2ca4")
+		)
+		(pin "1"
+			(uuid "ff95d137-ebb7-4b50-87b0-af1f248e9048")
+		)
+		(pin "2"
+			(uuid "fb713930-7a13-4a67-8948-0763bdede7f2")
+		)
+		(pin "5"
+			(uuid "ea0feafe-1f10-44d5-9b30-80c5fbbd297f")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -10689,6 +12431,100 @@
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC070N10NS3G")
+		(at 76.2 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c66f4f7-2ca9-4982-b642-28c42e3daecd")
+		(property "Reference" "Q4"
+			(at 82.55 140.9699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC070N10NS3G"
+			(at 82.55 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 81.28 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC070N10NS3-DS-v02_01-en.pdf?fileId=db3a304327b89750012824712c6c6f2f"
+			(at 81.28 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.0mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8"
+			(at 76.2 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "5256e875-4c7b-4fe2-aa9f-7dbe9cd5b5dd")
+		)
+		(pin "3"
+			(uuid "01f775d1-3f61-4b7d-9794-debbee76f68d")
+		)
+		(pin "1"
+			(uuid "69517c92-3afa-480e-be21-9904e53f6571")
+		)
+		(pin "2"
+			(uuid "96afae09-b5cc-42af-9d0f-6d7d79e8d642")
+		)
+		(pin "5"
+			(uuid "469cfa2d-98ae-42f1-baf7-40d7ee5894b7")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -11574,6 +13410,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 248.92 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9b2e4e6-cd12-4587-b56f-fea6577006ac")
+		(property "Reference" "J3"
+			(at 247.904 138.938 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 243.078 141.224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 248.92 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 248.92 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "046db1a3-36ff-44eb-aa94-fcf89379e530")
+		)
+		(pin "2"
+			(uuid "405138b2-ec06-400b-8873-4f7e918dfbb5")
+		)
+		(pin "5"
+			(uuid "d1c72184-4811-46b3-b500-7e8087f0cd4f")
+		)
+		(pin "6"
+			(uuid "b9881e65-ec44-48ee-b635-29e3b7d46ce4")
+		)
+		(pin "3"
+			(uuid "c10b30a9-dc7c-412f-9486-77310ebc85f0")
+		)
+		(pin "1"
+			(uuid "68022843-e28b-4779-b481-58036e9c3779")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 49.53 0)
 		(unit 1)
@@ -11723,6 +13652,176 @@
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 234.95 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c724ef44-fca6-4d34-82bf-524ece625e69")
+		(property "Reference" "H2"
+			(at 237.49 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 237.49 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 234.95 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 234.95 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSC070N10NS3G")
+		(at 45.72 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7c41def-e83e-4b01-92fb-b5fd47b0e687")
+		(property "Reference" "Q1"
+			(at 52.07 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BSC070N10NS3G"
+			(at 52.07 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TDSON-8-1"
+			(at 50.8 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BSC070N10NS3-DS-v02_01-en.pdf?fileId=db3a304327b89750012824712c6c6f2f"
+			(at 50.8 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "90A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 7.0mOhm Ron, Qg (typ) 42.0nC, PG-TDSON-8"
+			(at 45.72 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "b121a870-c47a-4fc3-99d0-a6b1f3ed50d1")
+		)
+		(pin "3"
+			(uuid "6066725e-f135-4f1b-ab54-76e1dad7b2a5")
+		)
+		(pin "1"
+			(uuid "d7d05d7b-4411-493f-a2ab-9e43820b1da2")
+		)
+		(pin "2"
+			(uuid "5b61a14f-9bc0-470b-8ea2-f2349b9da95e")
+		)
+		(pin "5"
+			(uuid "980da4f1-e727-4e14-9ff6-606bd73a0e81")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -12372,91 +14471,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 45.72 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e310fb0a-cd05-4e04-be54-6e704bcf2fd4")
-		(property "Reference" "Q1"
-			(at 52.07 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GDS"
-			(at 52.07 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
-			(at 50.8 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 45.72 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7f5fb5f-0b53-4979-a192-a8d4b34f2880")
-		)
-		(pin "2"
-			(uuid "88d824db-1ea8-4ecf-9e6f-bd47bfa13e9b")
-		)
-		(pin "3"
-			(uuid "3fa2fdaf-ba5c-45a5-b9d7-c66fc053909c")
-		)
-		(instances
-			(project "G431-FOC-SHIELD"
-				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDPWR")
 		(at 33.02 62.23 0)
 		(unit 1)
@@ -12535,6 +14549,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 234.95 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7ebbffd-ab49-4bd3-8861-12abb9709e68")
+		(property "Reference" "H1"
+			(at 237.49 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 237.49 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 234.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 234.95 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 24.13 132.08 0)
 		(unit 1)
@@ -12606,6 +14696,206 @@
 			(project "G431-FOC-SHIELD"
 				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 264.16 128.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f33a105a-28d1-4cb9-a768-3c7202b09a6d")
+		(property "Reference" "J5"
+			(at 264.414 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 264.414 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 264.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "e7fcc0b2-4ed3-4e77-bb37-332a641fd9ae")
+		)
+		(pin "6"
+			(uuid "98984213-dc25-457a-8083-e5424fe215c2")
+		)
+		(pin "5"
+			(uuid "a765ff09-ee95-4043-9b44-f2eccd0d6045")
+		)
+		(pin "4"
+			(uuid "c609d600-e002-498d-bf30-5d2d653d270e")
+		)
+		(pin "3"
+			(uuid "51feda0f-3e21-4b5d-acf7-0a0dd5602b73")
+		)
+		(pin "2"
+			(uuid "c51a81e1-f152-4e63-b91f-2a1c6d7d4c08")
+		)
+		(pin "1"
+			(uuid "90a129c3-8ddc-4e9e-a5f9-e0f01c8da2df")
+		)
+		(pin "8"
+			(uuid "82693ccb-bc30-4e65-ac34-a455ddafdc25")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x10")
+		(at 264.16 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3490d16-1e19-4da9-9fb0-b0f748f1323b")
+		(property "Reference" "J6"
+			(at 263.906 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x10"
+			(at 263.906 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+			(at 264.16 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "175e8cc5-c3ca-4572-89bf-f61d949e18e7")
+		)
+		(pin "3"
+			(uuid "662a02d8-3855-4aa6-aae9-78c03fa6391e")
+		)
+		(pin "7"
+			(uuid "2e2e7b07-a4e7-4f78-b4a4-92aa35769677")
+		)
+		(pin "8"
+			(uuid "2ba3bb60-74a8-468c-9ac0-ab3b026af357")
+		)
+		(pin "2"
+			(uuid "0cebb67f-7597-4cae-aa7f-64669db02f76")
+		)
+		(pin "10"
+			(uuid "1016f6ed-382a-4734-8b20-1c28419d6627")
+		)
+		(pin "6"
+			(uuid "d125dfa6-d7dc-4ab8-80b0-c33e206497c5")
+		)
+		(pin "1"
+			(uuid "fc88a243-5a8b-4edb-b6f2-7d685b78d1ff")
+		)
+		(pin "5"
+			(uuid "9189c1d4-91c5-45bb-a3e7-06f77450fa3e")
+		)
+		(pin "9"
+			(uuid "5ff544f5-4fe2-4197-8cc1-95f66352cd1f")
+		)
+		(instances
+			(project "G431-FOC-SHIELD"
+				(path "/f3c6a30b-0bcc-4603-81dd-59c5968ecb99"
+					(reference "J6")
 					(unit 1)
 				)
 			)
